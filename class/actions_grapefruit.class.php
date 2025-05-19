@@ -620,7 +620,7 @@ class ActionsGrapeFruit
 			}
 
 		}
-
+		return 0;
 	}
 
 
@@ -724,6 +724,7 @@ class ActionsGrapeFruit
 				}
 			} // Fin order / order_supplier
 		}
+		return 0;
 	}
 
 	function addOptionCalendarEvents($parameters, &$object, &$action, $hookmanager)
