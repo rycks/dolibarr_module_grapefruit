@@ -184,7 +184,7 @@ class ActionsGrapeFruit
 			</script>
 			<?php
 		}
-
+		return 0;
 	}
 
 	function formObjectOptions($parameters, &$object, &$action, $hookmanager)
